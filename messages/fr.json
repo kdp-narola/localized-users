@@ -1,3 +1,49 @@
 {
-    "title": "Localization"
+    "header": {
+        "title": "localisation",
+        "language": "Langue",
+        "home": "Accueil",
+        "users": "Utilisateurs"
+    },
+    "home": {
+        "welcome": "Bienvenue sur Next.js!",
+        "description": "Ceci est une démonstration de l'internationalisation (i18n) dans Next.js avec support des langues anglaise et française.",
+        "currentLanguage": "Langue actuelle: Français",
+        "features": {
+            "title": "Fonctionnalités",
+            "feature1": "Support multilingue",
+            "feature2": "Changement de langue facile",
+            "feature3": "URLs optimisées pour le SEO",
+            "feature4": "Rendu côté serveur"
+        },
+        "instructions": "Utilisez le sélecteur de langue dans l'en-tête pour basculer entre l'anglais et le français.",
+        "viewUsers": "Voir la liste des utilisateurs"
+    },
+    "users": {
+        "title": "utilisateurs",
+        "subtitle": "Parcourir et rechercher dans notre base de données d'utilisateurs",
+        "search": "Rechercher des utilisateurs...",
+        "searchPlaceholder": "Rechercher par nom ou email",
+        "table": {
+            "name": "Nom",
+            "username": "Nom d'utilisateur",
+            "email": "Email",
+            "phone": "Téléphone",
+            "company": "Entreprise",
+            "city": "Ville"
+        },
+        "pagination": {
+            "showing": "Affichage de",
+            "to": "à",
+            "of": "sur",
+            "users": "utilisateurs",
+            "previous": "Précédent",
+            "next": "Suivant"
+        },
+        "loading": "Chargement des utilisateurs...",
+        "error": "Échec du chargement des utilisateurs. Veuillez réessayer.",
+        "noResults": "Aucun utilisateur trouvé correspondant à votre recherche.",
+        "backToHome": "Retour à l'accueil",
+        "retry": "Retry"
+    }
 }

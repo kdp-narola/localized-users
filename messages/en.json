@@ -1,3 +1,49 @@
 {
-    "title": "Localization"
+    "header": {
+        "title": "Localization",
+        "language": "Language",
+        "home": "Home",
+        "users": "Users"
+    },
+    "home": {
+        "welcome": "Welcome to Next.js!",
+        "description": "This is a demonstration of internationalization (i18n) in Next.js with English and French language support.",
+        "currentLanguage": "Current Language: English",
+        "features": {
+            "title": "Features",
+            "feature1": "Multi-language support",
+            "feature2": "Easy language switching",
+            "feature3": "SEO-friendly URLs",
+            "feature4": "Server-side rendering"
+        },
+        "instructions": "Use the language selector in the header to switch between English and French.",
+        "viewUsers": "View Users List"
+    },
+    "users": {
+        "title": "Users",
+        "subtitle": "Browse and search through our user database",
+        "search": "Search users...",
+        "searchPlaceholder": "Search by name or email",
+        "table": {
+            "name": "Name",
+            "username": "Username",
+            "email": "Email",
+            "phone": "Phone",
+            "company": "Company",
+            "city": "City"
+        },
+        "pagination": {
+            "showing": "Showing",
+            "to": "to",
+            "of": "of",
+            "users": "users",
+            "previous": "Previous",
+            "next": "Next"
+        },
+        "loading": "Loading users...",
+        "error": "Failed to load users. Please try again.",
+        "noResults": "No users found matching your search.",
+        "backToHome": "Back to Home",
+        "retry": "Retry"
+    }
 }
