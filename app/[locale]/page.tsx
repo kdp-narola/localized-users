@@ -4,12 +4,12 @@ import { useEffect, useMemo } from 'react';
 import { useUsersStore } from '@/store/useUsersStore';
 import { useTranslations } from 'next-intl';
 
-import Loading from '@/components/Loading';
-import Error from '@/components/Error';
-import SearchBar from '@/components/SearchBar';
-import UsersTable from '@/components/UsersTable';
-import UsersCard from '@/components/UsersCard';
-import Pagination from '@/components/Pagination';
+import Loading from '@/components/shared/Loading';
+import Error from '@/components/shared/Error';
+import SearchBar from '@/components/shared/SearchBar';
+import UsersTable from '@/components/users/ui/UsersTable';
+import UsersCard from '@/components/users/ui/UsersCard';
+import Pagination from '@/components/shared/Pagination';
 
 export default function Home() {
   const t = useTranslations('users');
